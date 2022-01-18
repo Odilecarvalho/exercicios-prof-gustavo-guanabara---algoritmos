@@ -1,0 +1,19 @@
+Algoritmo "fatorial"
+Var c, n, f:inteiro
+Var r: caractere
+Inicio
+Repita
+Escreva ("digite um numero: ")
+Leia(n)
+C <= n
+F <= 1
+Repita
+F <= f*c
+C <= c - 1
+Ate (c < 1)
+Escreva (" o valor do fatorial de ",n, "é igual a ", f)
+Escreva(quer continuar, sim ou nao: ")
+Leia(r)
+LimpTela
+Ate(r = "n")
+Fimalgoritmo
