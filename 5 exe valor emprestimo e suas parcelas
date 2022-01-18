@@ -1,0 +1,13 @@
+Algoritmo "emprestimo"
+Var valor, emprestimo, parcela, pagamento: real
+Inicio
+Escreva ("qual valor do emprestimo?: ")
+Leia (valor)
+Emprestimo <= valor + ((valor*20) / 100))
+Escreval (" valor do emprestimo: R$ ", emprestimo)
+Escreva("quantas parcelas dividir?: ")
+Leia(parcela)
+Pagamento <= emprestimo / parcela
+Escreva (" parcelas divididas em: ", parcela)
+Escreva ("pagamento por mes: R$ ", pagamento)
+Fimalgoritmo
