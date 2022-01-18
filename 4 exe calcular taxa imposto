@@ -1,0 +1,8 @@
+algoritmo "taxa de imposto"
+  var  preco, imposto: real
+ inicio
+ escreva ("qual o valor do produto?: U$$ ")
+leia (preco)
+imposto <= (preco * 60) / 100
+escreva  ("taxa do imposto sera: U$$ ", imposto :5:2)
+ fimalgoritmo
