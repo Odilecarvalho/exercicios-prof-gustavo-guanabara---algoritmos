@@ -1,0 +1,11 @@
+Algoritmo "viagemparadisney"
+Var valor:inteiro
+Inicio
+Escreva ("qual valor da sua reserva: ")
+Leia (valor)
+Se (valor >= 10000) entao
+Escreva ("partiu disney!")
+Senao
+Escreva ("#chateado")
+Fimse
+Fimalgoritmo
