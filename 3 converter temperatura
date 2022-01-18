@@ -1,0 +1,8 @@
+algoritmo "temperatura"
+  var f, c: real
+ inicio
+escreva ("qual temperatura atual nos Estados Unidos f: ")
+leia (f)
+c <= (f - 32) / 1.8
+escreva ("no Brasil estaria: ", c :4:1)
+fimalgoritmo
