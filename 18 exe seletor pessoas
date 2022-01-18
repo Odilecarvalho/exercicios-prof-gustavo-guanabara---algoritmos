@@ -1,0 +1,29 @@
+Algoritmo "seletor pessoas"
+Var nome, sexo, resp: caractere
+Var idade, op, contm, contf: inteiro
+Inicio
+Repita
+Escreva("nome: ")
+Leia(nome)
+Escreva("genero: ")
+Leia(sexo)
+Escreva("idade: ")
+Leia(idade)
+Escreval("cor de cabelo")
+Escreval("[1] preto")
+Escreval("[2] castanho")
+Escreval("[3] loiro")
+Escreval("[4] ruivo")
+Leia(op)
+Se(sexo = "m") e (idade > = 18) e (op = 2) entao
+Contm<=contm +1
+Fimse
+Se (sexo = "f") e (idade > 25) e (idade < 30) e (op =3) entao
+Contf <= contf + 1
+Fimse
+Escreva ("quer continuar? S/N: ")
+Leia(resp)
+Ate(resp = "n")
+Escreval("temos", contm, " homens com mais de 18 anos e cabelo castanho")
+Escreval("temos", contf, "mulheres com idade entre 20 e 35 anos e cabelo loiro")
+Fimalgoritmo
