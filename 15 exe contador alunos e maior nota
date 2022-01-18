@@ -1,0 +1,29 @@
+Algoritmo "escola"
+Var contador, a: inteiro
+Var n, maior, menor: real
+Var nome: caractere
+Inicio
+Contador <= 1
+Maior <= 1
+Escreva("quantos alunos a turma tem: ")
+Leia(a)
+Enquanto (contasor < = a) faca
+Escreva("nome do aluno: ")
+Leia(nome)
+Escreva("nota: ")
+Leia(n)
+Se (contador=1) entao
+Maior <= n
+Menor <= n
+Fimse
+Se (n > maior) entao
+Maior <= n
+Fimse
+Se (n< menor) entao
+Menor <= n
+Fimse
+Contador <= contador +1
+Fimenquanto
+Escreva("melhor aproveitamento: ",nome)
+Eacreva("com a nota: ",maior)
+Fimalgoritmo
