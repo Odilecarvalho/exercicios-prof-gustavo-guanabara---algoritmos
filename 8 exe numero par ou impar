@@ -1,0 +1,10 @@
+Algoritmo " par ou impar"
+Var n:inteiro
+Escreva("digite um numero: ")
+Leia(n)
+Se (n%2=0) entao 
+Escreval ("o numero ", n, " é par")
+Senao
+Escreval("o numero ", n, " é impar")
+Fimse
+Fimalgoritmo
