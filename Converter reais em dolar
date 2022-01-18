@@ -1,0 +1,21 @@
+algoritmo "converter reais em dolar"
+var reais, dolar: real
+inicio 
+escreva ("quantos reais eu tenho?: R$ ")
+leia (reais)
+dolar <= reais/5.0
+escreva ("posso ter dolares: U$$ ", dolar)
+fimalgoritmo
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
