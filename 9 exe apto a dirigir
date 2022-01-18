@@ -1,0 +1,15 @@
+Algoritmo " apto a dirigir"
+Var ano, anonas, idade: inteiro
+Inicio
+Escreva ("ano atual: ")
+Leia(ano)
+Escreva ("ano nascimento: ")
+Leia(anonas)
+Idade( ano - anonas)
+Escreval (sua idade: ", idade, "anos")
+Se (idade >= 18) entao
+Escreval ("apto a tirar carteira")
+Senao
+Escreva ("inapto a tirar carteira")
+Fimse
+Fimalgoritmo
