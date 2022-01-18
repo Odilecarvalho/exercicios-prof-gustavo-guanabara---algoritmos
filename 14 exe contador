@@ -1,0 +1,25 @@
+Algoritmo "contador"
+Var contador, n, soma, maior, menor: inteiro
+Inicio
+Contador <= 1
+Soma<= 0
+Enquanto (contador < = 5) faca
+Escreva("digite o valor: ")
+Leia(n)
+Se (contador = 1) entao
+Maior<= n
+Menor <= n
+Fimse
+Se (n>maior) entao
+Maior <=n
+Fimse
+Se (n<menor) entao
+Menor <=n
+Fimse
+Soma<= soma + n
+Contador<= contador + 1
+Fimenquanto
+Escreval("soma de todos os valores: ",soma)
+Escreval("maior valor digitados: ", maior)
+Escreval("menor valor digitado: ", menor)
+Fimalgoritmo
