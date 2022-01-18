@@ -1,0 +1,32 @@
+Algoritmo "imc"
+Var m, a, imc: real
+Inicio
+Escreva("peso: ")
+Leia(m)
+Escreva("altura: ")
+Leia(a)
+Imc <= m/(a^2)
+Escreval ("imc: ", imc :5:2)
+Se (imc<17) entao
+Escreval("muito abaixo peso")
+Senao
+Se (imc > = 18.5) e (imc < 25) entao
+Escreval("peso ideal")
+Senao
+Se (imc > = 25) e (imc < 30) entao
+Escreval ("sobrepeso")
+Senao
+Se (imc >= 30) e (imc < 35) entao
+Escreval("obesidade")
+Senao
+Se (imc >= 35) e (imc < 40) entao
+Escreval("obesidade severa")
+Senao
+Escreval("obesidade morbida")
+Fimse
+Fimse
+Fimse
+Fimse
+Fimse
+Fimse
+Fimalgoritmo
