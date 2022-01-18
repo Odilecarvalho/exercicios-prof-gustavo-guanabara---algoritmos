@@ -1,0 +1,19 @@
+Algoritmo "aluno"
+Var n1, n2, m: real
+Inicio
+Escreva ("digite primeira nota: ")
+Leia(n1)
+Escreva ("digite segunda nota: ")
+Leia(n2)
+M <= (n1+n2)/2
+Escreva ("media do aluno: ",m :4:2)
+SE (m>=7) entao
+Escreval (" aluno aprovado!")
+Senao
+Se (m>=5) e (m<7) entao
+Escreval ("aluno em recuperacao")
+Senao
+Escreva ("aluno reprovado")
+Fimse
+Fimse
+Fimalgoritmo
