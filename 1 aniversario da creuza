@@ -1,0 +1,11 @@
+algoritmo "creuza 01"
+var ano_atual, ano_nascimento,idade: inteiro
+
+inicio
+escreva ("em que ano estamos?: ")
+leia (ano_atual)
+escreva ("em que ano nasci? ")
+leia(ano_nascimento)
+idade <== ano_atual - ano_nascimento
+escreva ("a idade atual de creuza: ", idade)
+fimalgoritmo
