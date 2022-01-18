@@ -1,0 +1,28 @@
+Algoritmo "contagem"
+Var c, d: inteiro
+Inicio
+Repita
+Escreval("menu")
+Escreval("______")
+Escreval("[1] de 1 a 10")
+Escreval("[2] de 10 a 1")
+Escreval("[3] sair")
+Leia(d)
+Escolha d
+Caso 1
+C <= 1
+Repita
+Escreval(c)
+C<=c+1
+Ate (c>10)
+Caso 2
+C <= 10
+Repita
+Escreval(c)
+C<=c-1
+Ate(c<1)
+Caso 3
+Escreval("saindo...")
+Fimescolha
+Ate(d>2)
+Fimalgoritmo
