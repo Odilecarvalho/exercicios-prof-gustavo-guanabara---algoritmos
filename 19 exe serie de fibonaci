@@ -1,0 +1,13 @@
+Algoritmo "fibonaci"
+Var anterior, atual, proximo, i:inteiro
+Inicio
+Anterior<=0
+Atual<=0
+Proximo<=1
+Para i de 1 ate 15 faça 
+Escreva(proximo)
+Anterior <= atual
+Atual <= proximo
+Proximo <= atual + anterior
+Fimpara
+Fimalgoritmo
