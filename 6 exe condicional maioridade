@@ -1,0 +1,13 @@
+Algoritmo "calculo idade"
+Var ano_atual, ano_nas, idade: inteiro
+Inicio
+Escreva ("em que ano estamos?: ")
+Leia (ano_atual)
+Escreva ("em que ano voce nasceu: ")
+Leia (ano_nas)
+Idade <= ano_atual - ano_nasc
+Escreval ("em", ano_atual, "voce tera", idade, "anos")
+Se (idade >= 21) entao
+Escreval ("e voce ja tera a maioridade: ")
+Fimse
+Fimalgoritmo
