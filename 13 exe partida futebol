@@ -1,0 +1,25 @@
+Algoritmo "futebol"
+Var bangu, madureira, dif: inteiro
+Inicio
+Escreval("bangu x madureira")
+Escreva("quantos gols do bangu?: ")
+Leia(bangu)
+Escreva("quantos gols do madureira?: ")
+Leia(madureira)
+Dif <= abs (bangu - madureira)
+Escreval("diferenca: ",dif)
+Escolha dif
+Caso 0
+Dif <= 0
+Escreval("empate")
+Caso 1
+Dif<= >=3
+Escreval("normal")
+Caso 2
+Dif<= >3
+escreval("normal")
+Outro caso
+Dif<= <4
+Escreval("goleada")
+Fimescolha
+Fimalgoritmo
