@@ -1,0 +1,15 @@
+Algoritmo "par impar"
+Var n: inteiro
+Procedimento parouimpar (v:inteiro)
+Inicio
+Se (v % 2 = 0) entao
+Escreval (" o numero ", v, " é par")
+Senao
+Escreval (" o numero ", v , " é impar")
+Fimse
+Fimprocedimento
+Inicio
+Escreva ("digite um numero: ")
+Leia(n)
+Parouimpar(n)
+Fimalgoritmo
