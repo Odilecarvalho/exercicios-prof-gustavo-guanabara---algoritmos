@@ -1,0 +1,17 @@
+Algoritmo "soma referencia"
+Var x, y: inteiro
+Procedimento soma (a, b: inteiro)
+Inicio
+A <= a+1
+B <= b+2
+Escreval(" valor de a: ", a)
+Escreval("valor de b: ", b)
+Escreval("soma a+b: ", a+b)
+Fimprocedimento
+Inicio
+X <= 4
+Y <= 8
+Soma(x,y)
+Escreval("valor de x: ", x)
+Escreval(" valor de y: ",y)
+Fimalgoritmo
