@@ -1,0 +1,19 @@
+Algoritmo "fibonacci"
+Var c, t1, t2, t3: inteiro
+Procedimento proximofibonacci (var a, b: inteiro)
+Var c:inteiro
+Inicio
+C:= a+b
+Escreva(c)
+A:=b
+B:=c
+Fimprocedimento
+Inicio
+T1<=0
+Escreva(t1)
+T2<=1
+Escreva(t2)
+Para c:= 3 ate 10 faca
+Proximo fibonacci(t1,t2)
+Fimpara
+Fimalgoritmo
