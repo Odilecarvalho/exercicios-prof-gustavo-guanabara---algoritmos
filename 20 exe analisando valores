@@ -1,0 +1,30 @@
+Algoritmo "analise valores"
+Var par, nulo, cinco, soma, v,i: inteiro
+Var media:real
+Inicio
+Par<=0
+Nulo<=0
+Cinco<=0
+Media<=0
+Soma<=0
+Para i de 1 ate 5 faca
+Escreva("digite valor: ")
+Leia(v)
+Soma <= soma + v
+Media <= soma/2
+Se (v % 5=0) entao
+Cinco<= cinco +1
+Fimse
+Se (v=0) entao
+Nulo <= nulo + 1
+Fimse
+Se (v % 2=0) entao
+Par <= par + v
+Fimse
+Fimpara
+Escreval (" soma valores: ", soma)
+Escreval (" media valores: ", media)
+Escreval (" divisivel por 5: ", cinco)
+Escreval ("valor nulo: ", nulo)
+Escreval ("soma pares: ", par)
+Fimalgoritmo
