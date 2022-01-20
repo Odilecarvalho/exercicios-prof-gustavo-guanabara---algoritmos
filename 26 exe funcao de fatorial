@@ -1,0 +1,15 @@
+Algoritmo "fatorial"
+Var n, f: inteiro
+Funcao fatorial (v:inteiro):inteiro
+Var c, r:inteiro
+Inicio
+R <= r*c
+Fimpara
+Retorne r
+Fimfuncao
+Inicio
+Escreva("digite um numero: ")
+Leia(n)
+F<= fatorial(n)
+Escreval("o valor de ", n , " é fatorial e igual: ",f)
+Fimalgoritmo
