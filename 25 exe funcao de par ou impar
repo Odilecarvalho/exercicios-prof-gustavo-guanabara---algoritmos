@@ -14,3 +14,4 @@ Escreva("digite um numero: ")
 Leia(n)
 R<= parouimpar(n)
 Escreva("o numero ", n , "e um valor", r)
+Fimalgoritmo
