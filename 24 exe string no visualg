@@ -1,0 +1,17 @@
+Algoritmo"strings"
+Var n: caractere
+Var c:inteiro
+Inicio
+Escreval("digite o seu nome: ")
+Leia(n)
+Escreval("total de letras do nome: ",compr(n))
+Escreval("nome em maiusculo: ", maiusc(n))
+Escreval("nome em minusculo: ", minusc(n))
+Escreval("primeira letra do nome: ", copia(n,1,2))
+Escreval("segunda letra do nome: ", copia(n,2,3))
+Escreval("ultima letra nome: ", copia(maius(n),comp(n),1))
+Escreval("posicao da letra L: ", pos("L", maius(n)))
+Escreval("codigo da letra A: ", asc("A"))
+Escreval("letra de codigo 65 é: ", carac(65))
+Para c<= compr(n) ate 1 passo - 1 faca
+Escreva(copia(maius(n),c,1))
