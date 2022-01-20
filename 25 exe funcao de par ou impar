@@ -1,0 +1,16 @@
+Algoritmo "parouimpar"
+Var n: inteiro
+Var r: caractere
+Funcao parouimpar (v:inteiro):caractere
+Inicio
+Se (v%2=0)entao
+Retorne "par"
+Senao
+Retorne "impar"
+Fimse
+Fimfuncao
+Inicio
+Escreva("digite um numero: ")
+Leia(n)
+R<= parouimpar(n)
+Escreva("o numero ", n , "e um valor", r)
