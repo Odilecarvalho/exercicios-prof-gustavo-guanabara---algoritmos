@@ -1,0 +1,19 @@
+Algoritmo "posicao pares"
+Var val: vetor [1..7] de inteiro
+Var i, totpar: inteiro
+Inicio
+Totpar <= 0
+Para i<= 1 a 7 faca
+Escreva ("digite o", i , " valor: ")
+Leia(val[i])
+Se (val[i] ÷2=0) entao
+Totpar <= totpar+1
+Fimse
+Fimpara
+Escreval("total pares foi: ", totpar)
+Para i <= 1 ate 7 faca
+Se (val[i] % 2 =0) entao
+Escreval("valor par na posicao: ",i)
+Fimse
+Fimpara
+Fimalgiritmo
