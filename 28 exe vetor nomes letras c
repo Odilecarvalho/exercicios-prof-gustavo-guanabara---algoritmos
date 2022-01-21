@@ -1,0 +1,19 @@
+Algoritmo " nomesc"
+Var nome:caractere
+Var soc: vetor [1..5] de caractere
+Var c, tot: inteiro
+Inicio
+Tot <= 0
+Para c <= 1 ate 5 faca
+Escreva("digite seu nome: ")
+Leia(nome)
+Se (copia(maius(nome),1,1)="c") entao
+Tot <= tot + 1
+Soc[tot] <= nome
+Fimse
+Fimpara
+Limpatela
+Escreval("listagem final")
+Para c<= 1 ate tot faca
+Escreval(soc[c])
+Fimalgoritmo
