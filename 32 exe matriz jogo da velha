@@ -1,0 +1,109 @@
+Algoritmo "jogo da velha"
+
+Var v: vetor [1..3., 1..3] de caractere
+Var l, c, cont, po: inteiro
+Var simb: caractere
+Var r:logico
+
+Procedimento mostravelha()
+Inicio
+Escreval("+---+---+---+")
+Para l <= 1 ate 3 faca
+Para c <= 1 ate 3 faca
+Escreva ("| ", v [l,c]:1)
+Fimpara
+Escreva(" | ")
+Escreval()
+Escreval("+---+---+---+")
+Fimpara
+Fimprocedimento
+
+Procedimento mudajogador()
+Inicio
+Se(simb= "x") entao
+Simb<= "o"
+Senao
+Simb<= "x"
+Fimse
+Fimprocedimento
+
+Funcao jogar(s:caractere; p:inteiro):logico
+Var mudou:logico
+Inicio
+Mudou<=falso
+Para l <= 1 ate 3 faca
+Para c <= 1 ate 3 faca
+Se (v [l,c]= numpcarac(p)) entao
+V[l,c] <= s
+Mudou <= verdadeiro
+Fimse
+Fimpara
+Fimpara
+Retorne mudou
+Fimfuncao
+
+Funcao terminouvelha():logico
+Var terminou:logico
+Ocorr:inteiro
+Inicio
+Terminou <= falso
+//jogos em linha
+Para l <= 1 ate 3 faca
+Se (v [l,1] = v[l,2]) e v[l,2]= v[l,3]) entao
+Terminou <= verdadeiro
+Fimse
+Fimpara
+//jogosemcoluna
+Para c<= 1 ate 3 faca
+Se (v[1,c]= v[2,c]) e (v[2,c]= v[3,c])entao
+Terminou <= verdadeiro 
+Fimse
+Fimpara
+//jogosemdiagonal
+Se (v[1,1]= v[2,2]) e v[2,2]= v[3,3])entao
+Terminou <= verdadeiro
+Fimse
+//jogoemvelha
+Ocorr<=0
+Para l <= 1 ate 3 faca
+Para c <= 1 ate 3 faca
+Se (v[l,c]<> "x") e (v[l,c]<>"o")
+Entao
+Ocorr <= ocorr + 1
+Fimse
+Fimpara
+Fimpara
+Se (ocorr=0)entao
+Terminou <= verdadeiro
+Fimse
+//retorne se jogo acabou
+Retorne terminou
+Fimfuncao
+
+Inicio
+Cont <= 1
+Simb <= "x"
+Para l <= 1 ate 3 faca
+Para c <= 1 ate 3 faca
+V[l,c] <= numpcarac(cont)
+Cont <= cont + 1
+Fimpara
+Fimpara
+Mostravelha()
+Repita
+Repita
+Escreval("vai jogar[", simb:1, "]em qual posicao?: ")
+Leia(po)
+R<= jogar(simb,po))
+Se (r=falso) entao
+Escreval("jogada invalida!")
+Fimse
+Ate (r=verdadeiro)
+Mudajogador()
+Limpatela
+Mostravelha()
+Ate(terminouvelha()=verdadeiro)
+Eacreval("jogo finalizado!")
+Fimalgoritmo
+
+
