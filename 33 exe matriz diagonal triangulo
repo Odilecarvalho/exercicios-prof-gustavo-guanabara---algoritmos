@@ -1,0 +1,90 @@
+Algoritmo "matriz"
+Var m:vetor[1..4, 1..4] de inteiro
+L, c, op: inteiro
+
+Procedimento mostramatriz()
+Inicio
+Para l <= 1 ate 4 faca
+Para c <= 1 ate 4 faca
+Escreva (m[l,c]:4)
+Fimpara
+Escreval()
+Fimpara
+Fimprocedimento
+
+Procedimento diagonalprincipal()
+Var t:inteiro
+Inicio
+Para l <= 1 ate 4 faca
+Escreval(m[1,1]:4)
+Para t <= 1 ate 1 faca
+Escreva(" ")
+Fimpara
+Fimpara
+Fimprocedimento 
+
+Procedimento triangulosuperior()
+Var t: inteiro
+Inicio
+Para l <= 1 ate 3 faca
+Escreva (" ")
+Para c <= 1+1 ate 4 faca
+Escreva(m[1,c]:4)
+Fimpara
+Escreval()
+Para t <= 1 ate 1 faca
+Escreva (" ")
+Fimpara
+Fimpara
+Escreval()
+Fimprocedimento 
+
+Procedimento trianguloinferior()
+Inicio
+Para l <= 2 ate 4 faca
+Escreval()
+Para c <= 1 ate l - 1 faca
+Escreva(m[1,c]:4)
+Fimpara
+Fimpara
+Escreval()
+Fimprocedimento
+
+Inicio
+Para l <= 1 ate 4 faca
+Para c <= 1 ate 4 faca
+Escreva("digite valor para posicao [", l, ",", c,"]: ")
+Leia(m[l,c])
+Fimpara
+Fimpara
+Limpatela
+Repita
+Escreval()
+
+Escreval("menu de opcoes")
+Escreval("[1] mostrar a matriz")
+Escreval("[2] diagonal principal")
+Escreval("[3] triangulo superior")
+Escreval("[4] triangulo inferior")
+Escreval("[5] sair")
+Repita
+Escrevsl("opcao: ")
+Leia(op)
+Ate(op> = 1) e (op< = 5)
+Limpatela
+Escolhaop
+Caso 1
+Mostramatriz()
+Caso 2
+Diagonalprincipal()
+Caso 3
+Triangulosuperior()
+Caso 4
+Trianguloinferior()
+Caso 5
+Escreval("encerrando...")
+Fimescolha
+Ate(op=5)
+Fimalgoritmo
+
+
