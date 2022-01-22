@@ -1,0 +1,48 @@
+Algoritmo"gabarito"
+Var gab: vetor [1..5] de caractere
+Var prova: vetor [1..5] de caractere
+Var nome: vetor [1..3] de caractere
+Var nota: vetor [1..3] de real
+Var a: inteiro
+Var s,m: real
+Procedimento cadastrogabarito ()
+Var c: inteiro
+Inicio
+Escreval ("cadastro de gabarito")
+Para c<= 1 ate 5 faca
+Escreva ("questao ", c, ":")
+Leia(gab[c])
+Fimpara
+Fimprocedimento
+Funcao cadastroprova():real
+Var c:inteiro
+Var notafinal:real
+Inicio
+Notafinal<=0
+Escreval("respostas dadas")
+Para c<= 1 ate 5 faca
+Escreva ("questao", c ,":")
+Leia(prova[c])= maius(gab[c]))entao
+Notafinal<= notafinal+2
+Fimse
+Fimpara
+Retorne notafinal
+Fimfuncao
+Inicio
+Cadastrogabarito()
+Para a<= 1 ate 3 faca
+Limpatela
+Escreval("aluno", a)
+Escreva("nome: ")
+Leia(nome[a])
+nota[a] <= cadastraprova()
+S<= s + nota[a]
+Fimpara
+Limpatela
+Escreval ("notas finais")
+Para a <= 1 ate 3 faca
+Escreval("nome[a]:10, nota [a]:4:1)
+Fimpara
+M<= s/3
+Escreval("media da turma: ", m:4:1)
+Fimalgoritmo
