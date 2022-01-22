@@ -1,0 +1,32 @@
+Algoritmo"reserva"
+Var b: vetor[1..19] de caractere
+Var cad,l: inteiro
+Var r: caractere
+Procedimento mostrafileira ()
+Var i:inteiro
+Inicio
+Para i<= 1 ate 10 faca
+Se (b[i]= " ")entao
+Escreva ("[b",i:2, "]")
+Senao
+Escreva("[----]")
+Fimse
+Fimpara
+Escreval( )
+Fimprocedimento
+Inicio
+Repita
+Limpatela
+Mostrafileira( )
+Escreva ("reaeevar a cadeira: b ")
+Leia(cad)
+Se(b [cad]=" ") entao
+B[cad] <= "x"
+Escreval ("cadeira b", cad , "reservada!")
+Senao
+Escreval("erro: lugar ocupado!")
+Fimse
+Escreva("quer reservar outro? S/n")
+Leia(r)
+Ate(r="n")
+Fimalgoritmo
